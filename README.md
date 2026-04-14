@@ -29,7 +29,7 @@ Durante o desenvolvimento, foram abordados:
 
 🧠 Validação de dados dentro da classe
 
-🧠 Arquitetura do Sistema
+🏗️ Arquitetura do Sistema
 
 Aqui temos uma estrutura que simula um banco, a classe ContaCorrente2 representa a entidade principal do sistema, sendo responsável por gerenciar os dados e operações de uma conta bancária, como número, nome do titular e saldo. Esses atributos são definidos como privados, garantindo proteção dos dados e evitando acessos diretos indevidos. O acesso e a modificação das informações são realizados por meio de métodos públicos (getters e setters), seguindo o princípio do encapsulamento.
 
