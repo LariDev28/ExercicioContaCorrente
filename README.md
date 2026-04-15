@@ -53,7 +53,51 @@ Compile e execute a classe principal
 
 🧪 Exemplo do Projeto
 
-O programa demonstra como aplicar o encapsulamento de forma mais completa, incluindo possíveis validações nos métodos setters, garantindo que os dados atribuídos aos objetos sejam consistentes e válidos.
+Entrada: O sistema pede o número da conta e o nome do titular.
+
+Saldo Inicial: O sistema exibe o saldo inicial (que começa em 0.0).
+
+Saque 1 (Falha): O usuário tenta sacar um valor (ex: 50.0).
+
+Saída: "Saldo insuficiente."
+
+Depósito (Sucesso): O usuário deposita 100.0.
+
+Lógica Interna: O sistema aplica o bônus de 10%.
+
+Saque 2 (Sucesso): O usuário tenta sacar 50.0.
+
+Saída: O novo saldo é exibido (ex: 60.0, pois 110.0 - 50.0 = 60.0).
+
+Representação no Console:
+
+Digite o numero da conta: 
+
+1001
+
+Digite seu nome: 
+
+Seu Nome
+
+Saldo: 0.0
+
+Digite o valor do saque: 
+
+50.0
+
+Saldo insuficiente.
+
+Digite o valor do deposito: 
+
+100.0
+
+Saldo: 110.0
+
+Digite o valor do saque: 
+
+50.0
+
+Saldo final: 60.0
 
 📌 Aprendizados
 
